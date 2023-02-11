@@ -121,7 +121,7 @@ function Movies({ title, image, rate, text }) {
       <img className="img-fluid" src={image} alt={title} />
       <div className="d-flex justify-content-between mt-2">
         <p className="fw-bold pe-3">{title}</p>
-        <h6>{rate}</h6>
+        <p className="rating">⭐{rate}</p>
       </div>
       {/* <header className="row">
         {title} <span className="rating">{rate}</span>
